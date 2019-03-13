@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811C0BA9223977A2004F37F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C0BA8223977A2004F37F7 /* ViewController.swift */; };
+		8133088B2229B0590028A259 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8133088A2229B0590028A259 /* CollectionViewCell.swift */; };
+		8138508D222862A500A6EE7E /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8138508C222862A500A6EE7E /* CollectionViewController.swift */; };
 		81CD20D7222464DA00D8B3D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CD20D6222464DA00D8B3D1 /* AppDelegate.swift */; };
-		81CD20D9222464DA00D8B3D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CD20D8222464DA00D8B3D1 /* ViewController.swift */; };
 		81CD20DC222464DA00D8B3D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CD20DA222464DA00D8B3D1 /* Main.storyboard */; };
 		81CD20DE222464DB00D8B3D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CD20DD222464DB00D8B3D1 /* Assets.xcassets */; };
 		81CD20E1222464DB00D8B3D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CD20DF222464DB00D8B3D1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		811C0BA8223977A2004F37F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8133088A2229B0590028A259 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8138508C222862A500A6EE7E /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		81CD20D3222464D900D8B3D1 /* bitzigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitzigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CD20D6222464DA00D8B3D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81CD20D8222464DA00D8B3D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81CD20DB222464DA00D8B3D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81CD20DD222464DB00D8B3D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81CD20E0222464DB00D8B3D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				81CD20D6222464DA00D8B3D1 /* AppDelegate.swift */,
-				81CD20D8222464DA00D8B3D1 /* ViewController.swift */,
+				8133088A2229B0590028A259 /* CollectionViewCell.swift */,
 				81CD20DA222464DA00D8B3D1 /* Main.storyboard */,
+				811C0BA8223977A2004F37F7 /* ViewController.swift */,
+				8138508C222862A500A6EE7E /* CollectionViewController.swift */,
 				81CD20DD222464DB00D8B3D1 /* Assets.xcassets */,
 				81CD20DF222464DB00D8B3D1 /* LaunchScreen.storyboard */,
 				81CD20E2222464DB00D8B3D1 /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81CD20D9222464DA00D8B3D1 /* ViewController.swift in Sources */,
+				8138508D222862A500A6EE7E /* CollectionViewController.swift in Sources */,
+				8133088B2229B0590028A259 /* CollectionViewCell.swift in Sources */,
+				811C0BA9223977A2004F37F7 /* ViewController.swift in Sources */,
 				81CD20D7222464DA00D8B3D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245UWA2DC9;
 				INFOPLIST_FILE = bitzigram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245UWA2DC9;
 				INFOPLIST_FILE = bitzigram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
